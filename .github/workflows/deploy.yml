@@ -20,5 +20,5 @@ jobs:
             cd /home/ec2-user/digiturno/users
             git pull origin main
             cd /home/ec2-user/digiturno
-            docker-compose stop users-service
-            docker-compose up -d --build users-service
+            docker-compose stop users
+            docker-compose up -d --build users
