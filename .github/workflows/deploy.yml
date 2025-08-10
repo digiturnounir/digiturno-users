@@ -22,3 +22,4 @@ jobs:
             cd /home/ec2-user/digiturno
             docker-compose stop users
             docker-compose up -d --build users
+            
